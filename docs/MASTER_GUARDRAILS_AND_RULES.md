@@ -271,3 +271,34 @@ These rules apply to every AI assistant and human contributor working on Profesh
 9. **Report changes accurately.** Identify what was changed, where it was changed, what was deliberately left untouched, and what remains unverified.
 
 10. **Protect project boundaries.** Never import decisions, code, assumptions, or architectural conventions from another project without the required assessment and approval.
+
+---
+
+## Adoption record (2026-11-14)
+
+This document was peer-reviewed, amended, and adopted as follows:
+
+- **Peer review #8** (PEER_REVIEW_LOG.md): verdict "Approve with
+  amendments" — seven amendments, improvements A–D, and this
+  document's §10 (AI operating protocol) directed.
+- **Amendments incorporated** the same day on the owner's
+  instruction (repo commits 941d356 and 08346be).
+- **Final review, approval 1 of 2 (ChatGPT): APPROVED.** All twelve
+  concerns from review #8 verified resolved; no blocking
+  objections. Two non-blocking observations recorded: §1's "single
+  handover document" means the single operational entry point, not
+  a replacement for the authoritative source documents; §4's
+  figures stand provided the underlying results documents remain
+  available with their methodology and limitations. Approval scope:
+  this document as a governance and handover specification — it
+  does not certify the underlying measurements, repo state, Notion
+  state, or technical decisions, which keep their own records.
+- **Final review, approval 2 of 2 (second reviewer): APPROVED.**
+  Checklist verified against §2/§4 (evidence boundaries, claims
+  ladder), §5 (secret custody), §7/§9 (synchronization, authority
+  hierarchy), §1/§8 (scope and gate discipline, G2 prerequisites
+  C1 and A1 noted). Verdict: the amended document is fully ratified
+  and stands as the single operational entry point and binding
+  governance framework for all future project contributions.
+
+With both approvals recorded, this document is ADOPTED.
