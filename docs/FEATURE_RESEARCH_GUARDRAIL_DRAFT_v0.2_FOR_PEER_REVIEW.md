@@ -5,10 +5,16 @@
 (FEATURE_RESEARCH_GUARDRAIL_PROPOSAL_2026-11-14.md) with the
 amendments of peer review #11 (A1–A5) incorporated.
 **Review state:** Muse review complete (Approved with amendments,
-all incorporated here). One further peer review requested by the
-owner; Gemini review outstanding. Adoption, if it happens, is by
-an owner decision record in the charter — this draft authorizes
-nothing and changes no existing rule.
+all incorporated here). Gemini review complete 2026-11-15:
+APPROVED, no revisions required (peer review log #12), with two
+non-blocking observations — waiver follow-ups to be logged in the
+project tracker, and standalone status confirmed correct. A
+second independent review of this version remains outstanding:
+the owner relayed two messages (labelled ChatGPT and Gemini)
+carrying identical text self-attributed to Gemini, so only one
+independent approval is established by the evidence. Adoption, if
+it happens, is by an owner decision record in the charter — this
+draft authorizes nothing and changes no existing rule.
 **Form when adopted:** a standalone gate-and-template document,
 kept separate from the Master Guardrails and Rules, which it
 cross-references rather than restates (A5).
