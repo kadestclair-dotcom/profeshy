@@ -1,7 +1,11 @@
 # Profeshy — Project Charter v0.1
 
-**Status: DRAFT FOR PEER REVIEW. This document authorizes no code, no
-accounts, and no spending.**
+**Status: ADOPTED 2026-11-14 (Gate G0 closed; Decisions #001 and #002
+recorded at the end of this document). Originally issued the same day
+as a DRAFT FOR PEER REVIEW — that draft authorized no code, no
+accounts, and no spending; spike harnesses since then were approved
+individually. Filename retains its draft-era name so existing links
+do not break.**
 **Date:** 2026-11-14
 **Owner:** Kade
 **Supersedes:** the "Awesome House Mobile rewrite" framing. Profeshy is a
@@ -91,13 +95,23 @@ S8).
 
 ## 3. The gating question: which World of Warcraft?
 
+**DECIDED 2026-11-14 — Decision Record #001 (end of this document):
+Route B, WoW Forever via Blizzard's undocumented Forever API, using
+the owner's own Blizzard API client; AHledger is a named fallback
+only. The text below is the pre-decision framing, kept for the
+record; where it differs from the Decision Record, the Decision
+Record governs. Corrections applied at the 2026-11-14 cleanup pass:
+WoW Forever is an official Blizzard server (launched 2026-11-04),
+not a private server; and an auction house API does exist for it
+(undocumented) — see the D1 decision brief and the S1b results.**
+
 Everything about "live data" depends on the game target, and it is **not
 yet decided**. The candidates differ fundamentally:
 
 - **Official WoW (Blizzard API):** live auction house data exists through
   documented APIs for realms/connected realms; profession and recipe data
   exists in the Game Data APIs. Costs: API-key custody (§6) and a backend.
-- **WoW Forever (private server):** no public auction house API is known
+- **WoW Forever (official Blizzard server):** no public auction house API is known
   to exist. "Live AH data" may be impossible from outside the game; the
   fallback shapes (manual entry, addon-companion export, crowdsourced
   snapshots) are different products with different honesty rules.
