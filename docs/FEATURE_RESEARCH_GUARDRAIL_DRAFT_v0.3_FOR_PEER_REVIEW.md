@@ -231,3 +231,19 @@ not restate or replace them:
 Where this guardrail and the master file appear to conflict, the
 master file and the charter's decision records govern, per the
 authority hierarchy.
+
+---
+
+## Review record (2026-11-15)
+
+- Gemini, second review of this exact version: **APPROVED**
+  (peer review log #14). All reconciled items verified —
+  C-A1 Class D, C-A3 exemptions, C-A2 evidence distinction,
+  G-obs tracker-logged waivers, C-minor decision fields,
+  C-A4 relevance-based triggers. No further revisions required.
+- Review chain complete: Muse #11 (proposal), Gemini #12
+  (v0.2 Approved), ChatGPT #13 (v0.2 Approved with amendments,
+  reconciled here), Gemini #14 (this version, Approved).
+- **Status: ready for adoption. Adoption requires an owner
+  decision record in the charter; until then this document is a
+  draft and authorizes nothing.**
