@@ -351,6 +351,37 @@ With peer review passed, D1 recorded (#001), and D3 recorded here, the
 §9 conditions for **Gate G0 — Charter adopted** are met. G0 is closed.
 Next gate work is G1 (data feasibility): Spikes S1b, S2, S3, S4.
 
+### Decision #003 — Feature Research & Comparative Audit guardrail adopted (2026-11-15)
+
+**Decision: the Feature Research & Comparative Audit guardrail is
+ADOPTED as a standalone project document** (text: Draft v0.3,
+FEATURE_RESEARCH_GUARDRAIL_DRAFT_v0.3_FOR_PEER_REVIEW.md, whose
+header now records this adoption; filename kept so links do not
+break). It is kept separate from the Master Guardrails and Rules
+and cross-references it, per the master file's one-responsibility-
+per-document principle.
+
+What the guardrail establishes: before implementation, a workstream
+in scope classes A (first-in-stage user-facing feature), B
+(third-party adoption), C (material change to an accepted
+contract's subject matter), or D (significant internal subsystem
+or foundational architecture) passes a research gate — a Feature
+Research & Comparative Audit written to the guardrail's evidence
+standards (claims-ladder levels on the evidence itself; primary
+sources; demonstrated-behaviour checks or recorded waivers whose
+follow-ups are tracker rows), peer-reviewed, and marked READY /
+READY WITH CONDITIONS / BLOCKED by owner decision, nested inside
+the existing stage gates.
+
+Review chain on record (PEER_REVIEW_LOG.md): the v0.1 proposal was
+reviewed by Muse (#11, Approved with amendments); v0.2 by Gemini
+(#12, Approved) and ChatGPT (#13, Approved with amendments); the
+reconciled v0.3 by Gemini (#14, Approved, no further revisions).
+Adoption recorded on the owner's instruction, 2026-11-15.
+
+First scheduled application: pilot the template on Spike S5
+(profit formula validation) at G2, per review #11's suggestion.
+
 ### Spike S8 — review record (2026-11-14)
 
 Peer review verdict on the S8 competitor audit: **Approved as-is.** The

@@ -1,20 +1,18 @@
-# Guardrail — Feature Research & Comparative Audit (DRAFT v0.3)
+# Guardrail — Feature Research & Comparative Audit (v0.3, ADOPTED)
 
-**Status: DRAFT FOR PEER REVIEW — NOT ADOPTED.**
+**Status: ADOPTED 2026-11-15 — Decision Record #003 in the
+charter.** (Filename retains its draft-era name so existing links
+do not break.)
 **Prepared:** 2026-11-15, by Muse, reconciling the v0.2 reviews:
 peer review #12 (Gemini — Approved) and #13 (ChatGPT — Approved
 with amendments). ChatGPT's four required amendments, its
 non-blocking template suggestion, and Gemini's waiver-tracking
 observation are incorporated and marked (C-A1…C-A4, C-minor, G-obs).
-**Review state:** v0.2 received both independent reviews. Per
-ChatGPT's disposition, this exact v0.3 is submitted to Gemini for
-the second review. Adoption, if it happens, is by an owner
-decision record in the charter — this draft authorizes nothing
-and changes no existing rule. v0.2 is kept intact as the reviewed
-version.
-**Form when adopted:** a standalone gate-and-template document,
-kept separate from the Master Guardrails and Rules, which it
-cross-references rather than restates.
+**Review state:** complete. Gemini's second review of this exact
+version: APPROVED, no further revisions (peer review log #14).
+**Form:** a standalone gate-and-template document, kept separate
+from the Master Guardrails and Rules, which it cross-references
+rather than restates.
 
 ## 1. Core principle
 
@@ -244,6 +242,6 @@ authority hierarchy.
 - Review chain complete: Muse #11 (proposal), Gemini #12
   (v0.2 Approved), ChatGPT #13 (v0.2 Approved with amendments,
   reconciled here), Gemini #14 (this version, Approved).
-- **Status: ready for adoption. Adoption requires an owner
-  decision record in the charter; until then this document is a
-  draft and authorizes nothing.**
+- **Adopted 2026-11-15** by the owner's instruction, recorded as
+  Decision Record #003 in the charter. This guardrail is now in
+  force for workstreams in its scope classes.

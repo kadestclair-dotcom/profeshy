@@ -77,6 +77,13 @@ Canonical locations:
   self-collected. AHledger's licence forbids archiving below its
   $499/mo Data tier, so rented history can never become the project's
   asset.
+- **Decision #003 (2026-11-15):** the Feature Research &
+  Comparative Audit guardrail is ADOPTED as a standalone document
+  (FEATURE_RESEARCH_GUARDRAIL_DRAFT_v0.3_FOR_PEER_REVIEW.md, header
+  records the adoption). Workstreams in its scope classes A–D pass
+  its research gate — peer-reviewed audit, owner READY decision —
+  before implementation, nested inside the stage gates. First
+  application: pilot on S5 at G2.
 
 ## 4. Data rules (measured, binding on all future work)
 
