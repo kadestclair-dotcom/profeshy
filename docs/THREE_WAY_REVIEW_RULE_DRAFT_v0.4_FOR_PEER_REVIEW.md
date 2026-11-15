@@ -10,10 +10,14 @@ before submission when peer review #19 (DeepSeek, reviewing
 ChatGPT's review) required further reconciliation first. v0.3
 (commit 65d072e) incorporated #18 and #19 and was reviewed by
 ChatGPT (peer review #20: Approved with amendments A1–A4).
-**This v0.4 incorporates #20 in full and is the cycle-2 —
-final — reconciliation (§6):** if amendment requests remain
-after v0.4, they do not produce a v0.5; the owner decides on
-v0.4 as it stands, over recorded dissent or by withdrawal.
+**This v0.4 incorporates #20 and the open items of #22 in full
+and is the cycle-2 — final — reconciliation (§6):** if
+amendment requests remain after v0.4, they do not produce a
+v0.5; the owner decides on v0.4 as it stands, over recorded
+dissent or by withdrawal. Cycle mapping, for the record
+(review #22, B3): v0.1 was the cycle-1 submission; v0.2 was
+superseded before submission and is not a cycle; v0.3 was the
+cycle-1 reconciled version; v0.4 is cycle 2.
 Approvals attach to an exact version and commit hash: no
 earlier approval (Gemini on v0.1, ChatGPT on v0.1 or v0.3)
 carries to v0.4, and three-way approval of v0.4 requires a
@@ -21,7 +25,10 @@ recorded APPROVED from all three reviewers on v0.4 itself (§6,
 as amended by #20 A1). v0.4 goes to all three reviewers.
 **Prepared:** 2026-11-15, by Muse, from the owner's proposed
 rule and peer reviews #16 (DeepSeek), #18 (ChatGPT), #19
-(DeepSeek), and #20 (ChatGPT).
+(DeepSeek), #20 (ChatGPT), and #22 (DeepSeek on v0.3 — its B5,
+B6, B7, B8 and B3 wording are folded in here; its B2 and B4 were
+verified as already present in v0.3 §6 at commit 65d072e and
+required no change).
 Two points in v0.1 were drafted as reviewer recommendations
 flagged for the owner's confirmation: the independence mechanism
 (§4, DeepSeek's Option 3) and the roster formulation (§3,
@@ -95,9 +102,11 @@ be quietly swapped because a reviewer disagreed with a proposal.
   reviewers, the mechanism is **substitution**: the owner
   designates a substitute independent reviewer for that cycle,
   recorded in the log — so a proposal is never left structurally
-  unapprovable by its own safeguard. Because substitution still
-  yields three independent verdicts, §6's outcomes apply to
-  author-involving proposals unchanged.
+  unapprovable by its own safeguard. **The substitute stands in
+  for the author and their verdict occupies the author's slot:
+  the cycle has exactly three counted verdicts** (the two
+  non-author designated reviewers plus the substitute), and §6's
+  outcomes apply to author-involving proposals unchanged.
 - **Owner-authored proposals** are reviewed by all three
   assistants normally. The owner is the adopting authority, not a
   reviewer, so the owner's authorship does not taint the review.
@@ -196,11 +205,14 @@ commit hash for every version reviewed; each reviewer's verdict
 verdict is scoped to the text as a governance specification and
 does not certify the underlying measurements, decisions, or any
 prior application of the rule; the amendments requested and
-their disposition; any dissent (verbatim); any non-participation
-and its window; which of §6's outcomes the review reached (1, 2,
-3a, or 3b, with counts); for 3a/3b, the owner's stated reason for
-proceeding; the owner's adoption decision and its date; and
-where the adopted text is seated.
+their disposition; **for each APPROVED WITH AMENDMENTS verdict,
+whether it is conditional on its named amendments and the
+version it attaches to**; any dissent (verbatim); any
+non-participation and its window; **any substitute reviewer
+designation and its reason**; which of §6's outcomes the review
+reached (1, 2, 3a, or 3b, with counts); for 3a/3b, the owner's
+stated reason for proceeding; the owner's adoption decision and
+its date; and where the adopted text is seated.
 
 ## 9. Relationship to the existing guardrails
 
@@ -219,7 +231,10 @@ existed. The stages, each recorded in the log:
 
 1. **Initial owner-authorized bootstrap adoption:** the owner
    adopts this rule on the record, under the governance in force
-   before it exists.
+   before it exists — **recorded as a Decision Record in the
+   charter (the next number in sequence) and cross-referenced in
+   PEER_REVIEW_LOG.md**, so a future reader can find the record
+   that carries the bootstrap.
 2. **Three-way review and ratification:** the rule's first
    application is the three-way review, under its own terms, of
    the exact bootstrap-adopted version.
