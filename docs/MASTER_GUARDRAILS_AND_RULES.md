@@ -38,9 +38,14 @@ Canonical locations:
    document. Designs and results live in `docs/`, named
    `<SPIKE>_SPIKE_DESIGN_<date>.md` and `<SPIKE>_RESULTS_<date>.md`.
 2. **Claims ladder.** Every factual claim is one of: Hypothesis,
-   Tested (measured once, recorded), Verified (independently
-   confirmed a second way). Never state a Tested claim as Verified.
-   Never promote a claim because it was repeated or imported.
+   Tested, Verified. Definitions are operational: **Tested** means
+   observed through one documented measurement method. **Verified**
+   means independently corroborated through a materially different
+   method, source, or measurement path — repeated execution of the
+   same method is not verification, and two scripts querying the
+   same endpoint are not independent of each other. Never state a
+   Tested claim as Verified. Never promote a claim because it was
+   repeated or imported.
 3. **Provenance on all data.** Every dataset and displayed figure
    carries its origin. Imported data is labelled by source and never
    silently treated as first-party measurement.
@@ -96,6 +101,17 @@ Canonical locations:
   **Forecasts** are labelled estimates with method and confidence,
   and ship only after a recorded backtest (charter Stage 5).
 
+**Evidence boundaries (binding on every summary of §4).** Each
+finding above was measured within documented test boundaries —
+a specific population, snapshot, environment, and method. This
+section summarizes; the underlying results document is
+authoritative for sample size, collection time, environment,
+methodology, exclusions, and limitations. A finding must never be
+generalized beyond the population and conditions actually tested:
+for example, "identical across rulesets" was established for house
+113, in one snapshot window, across US rulesets 1/2/3 — not for
+every house at every time.
+
 ## 5. Secrets and custody
 
 - API keys and secrets NEVER appear in chat, in documents, in code
@@ -110,6 +126,16 @@ Canonical locations:
   to the assistant.
 - The GitHub app used by the assistant cannot create repositories
   (403). It can read and push files to the profeshy repo.
+- Never, as part of any task: request a secret through chat; print
+  environment variables; dump a complete configuration file; log
+  authorization headers or tokens; let a secret appear in an
+  exception trace; commit a local configuration file; or use real
+  credentials in shared or published test fixtures.
+- Identifiers are not credentials: a Blizzard client ID is a public
+  identifier, the client secret is the confidential credential.
+  The project's conservative policy keeps both out of published
+  material anyway; the distinction matters so the secret is never
+  treated casually by analogy.
 
 ## 6. Reuse rule (Awesome House)
 
@@ -146,18 +172,47 @@ with no verified-as-of date or owner.
   2026-11-14).
 - When a results document changes, update it in the repo `docs/`
   as well and record the push in the local sync record.
+- **No invented state, including status and synchronization.**
+  Always distinguish: work completed and independently read back;
+  work reported complete by another contributor; work proposed but
+  not executed; work executed but not verified; work whose status
+  cannot be established. Never claim a repository push, a Notion
+  update, a tracker modification, a test execution, or a document
+  creation without evidence the action occurred.
+- **Synchronization authority.** GitHub is authoritative for
+  version-controlled project documents. Notion is the working
+  knowledge and handover interface. The Excel tracker is the
+  tracking snapshot. No snapshot overrides a newer accepted source
+  document. When sources disagree, the conflict is recorded and
+  reconciled — never silently resolved — and every snapshot
+  carries its verified-as-of date.
+- **Blocked work stops cleanly.** When evidence, access, owner
+  input, or authorization is unavailable, stop the affected work
+  and record: the blocker, what is known, what remains unknown,
+  and the precise evidence or authorization needed to resume.
+  Never work around a blocked gate by changing scope.
+- **Regression protection.** Accepted contracts and verified
+  behaviours are regression constraints. A proposed change that
+  affects them requires an impact assessment, explicit
+  justification, updated evidence, and owner approval wherever it
+  changes an accepted decision.
 
 ## 8. Current state (2026-11-14, evening)
 
-- G0 CLOSED. G1 in progress: S1b PASS (closed), S2 PASS (closed,
-  desktop + Android), S4 PASS (item F1 open), S3 RUNNING (cadence
-  probe on the owner's PC since 20:04 PST; results report due after
-  ~24 h of log), S8 complete from listings (hands-on device pass
-  still owed before G3).
-- Repo live and peer-review approved, incl. `docs/` paper trail and
-  `ROADMAP.md`.
-- ForeverDB access form ready to submit by the owner (repo URL is
-  the project link). F1/F2 run when the key arrives.
+- G0 CLOSED. G1 in progress: S1b PASS (closed). S2 PASS (closed,
+  desktop + Android). S4: source strategy ACCEPTED (results
+  peer-review approved); F1 item-coverage test OUTSTANDING —
+  parked 2026-11-14, awaiting ForeverDB's response; do not chase.
+  S3 RUNNING (cadence probe on the owner's PC since 20:04 PST;
+  results report due after ~24 h of log). S8: listing-based
+  assessment COMPLETE; hands-on device verification OUTSTANDING
+  (due before G3); overall acceptance PENDING.
+- Repo live and peer-review approved, incl. `docs/` paper trail,
+  `ROADMAP.md`, and a source-available all-rights-reserved LICENSE.
+- Compliance register on file (TERMS_RISK_COMPLIANCE_REGISTER.md):
+  open items C1 (Blizzard §2.18 30-day data TTL vs long-term price
+  history — resolve before G2) and A1 (confirm the Blizzard client
+  registration names Profeshy).
 - Still owed by the owner: Q6 monetization intent (unanswered —
   it changes AHledger/ForeverDB tier maths; do not assume an answer).
 - Ahead: S5 (profit formula validation), S6 (Android background
@@ -167,13 +222,31 @@ with no verified-as-of date or owner.
 ## 9. If you are a new assistant starting cold
 
 1. Read this file, then the charter, then the results document for
-   any spike you will touch.
+   any spike you will touch. Resolve every unfamiliar project
+   identifier (S-, D-, F-, Q-, G-, C- codes) from its authoritative
+   document before acting; never interpret an identifier from
+   context or guess its meaning.
 2. Check the gate scoreboard (write-up §6 / tracker) before
    proposing work; propose only work inside the current gate.
 3. If the owner relays a peer-review verdict, record it in the
    document it concerns and act on its directions exactly.
-4. If anything here conflicts with a newer decision record in the
-   charter, the decision record wins — and update this file.
+4. **Authority hierarchy** when documents conflict, highest first:
+   (1) explicit owner-approved decision records; (2) the accepted
+   charter and its amendments; (3) accepted technical contracts;
+   (4) accepted spike results and findings; (5) roadmap and tracker
+   snapshots; (6) drafts, proposals, and assistant recommendations.
+   One qualification outranks the list: a measurement remains
+   authoritative evidence of what was observed, even when a
+   decision record establishes what the project has chosen to do —
+   no decision can make a disproven measurement true. An assistant
+   may recommend superseding a decision but must never silently
+   supersede one; supersession is itself a decision record.
+5. **Charter status, to remove all doubt:** the charter's content
+   is ADOPTED (Gate G0 closed 2026-11-14, Decisions #001 and #002
+   recorded in it) even though its filename retains its draft-era
+   name — PROFESHY_CHARTER_v0.1_DRAFT_FOR_PEER_REVIEW.md — kept so
+   existing links do not break. Its header records the adopted
+   status. No newer charter version exists.
 
 ## 10. AI operating protocol
 
