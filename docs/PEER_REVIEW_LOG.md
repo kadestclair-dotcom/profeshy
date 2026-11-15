@@ -11,6 +11,8 @@ on memory.
 - **Approved as-is** — accepted with no changes requested
 - **Approved with directions** — accepted, with instructions to act on
 - **Approved for execution** — a design accepted to be run
+- **Approved with amendments** — accepted in principle; the named
+  revisions are required before the subject is treated as final
 
 ## Register
 
@@ -23,6 +25,8 @@ on memory.
 | 5 | 2026-11-14 | S4 results report | Approved | Confirmed the two-populations finding (AH item gap vs recipe graph), the media-endpoint finding, ForeverDB's narrowed role; Stage 3 safe to proceed | S4_RESULTS_2026-11-14.md |
 | 6 | 2026-11-14 | S2 Part A results | Approved with directions | Schedule Part B to close S2 (done 2026-11-14, passed); proceed to S3 using the verified aggregate footprint | S2_RESULTS_2026-11-14.md |
 | 7 | 2026-11-14 | Public repo and transparency layer (README + docs/ paper trail + key custody workflow) | Approved as-is | Verdict: repository "pristine"; correctly sequenced and secure. Reviewer's G1 statement at the time: only F1 and S2 Part B remained (Part B has since passed) | Project tracking and memory; this log |
+
+| 8 | 2026-11-14 | Master Guardrails and Rules (handover document) | Approved with amendments | Seven amendments directed: (1) every measured finding carries its test boundaries, results docs authoritative over summaries; (2) Tested vs Verified operational definitions (materially different method; repetition is not verification); (3) S4/S8 status wording reconciled (part vs whole); (4) explicit authority hierarchy, measurements stay authoritative as evidence, no silent supersession; (5) no-invented-state extended to project status and synchronization claims; (6) synchronization rule (GitHub authoritative for documents, snapshots dated, conflicts recorded not silently resolved); (7) security section strengthened (no requesting secrets in chat, no env/config dumps, no tokens in logs, identifiers vs credentials distinguished). Plus: identifier-resolution rule, stopping protocol, regression protection, charter-status clarification, and a new §10 AI operating protocol. §10 added to the master file 2026-11-14 at the owner's forwarding; the seven amendments and wording reconciliations are pending the owner's direction. Reviewer: do not reopen technical decisions or closed gates; final peer review after amendments | MASTER_GUARDRAILS_AND_RULES.md (§10); this log |
 
 ## Rules for future reviews
 

@@ -174,3 +174,27 @@ with no verified-as-of date or owner.
    document it concerns and act on its directions exactly.
 4. If anything here conflicts with a newer decision record in the
    charter, the decision record wins — and update this file.
+
+## 10. AI operating protocol
+
+These rules apply to every AI assistant and human contributor working on Profeshy.
+
+1. **Read before acting.** Read this document, the charter, and the relevant accepted results and decision records before proposing or executing work. Resolve unfamiliar project identifiers from their authoritative documents.
+
+2. **Evidence before assertion.** Never claim that a task, test, document update, repository push, synchronization, or verification occurred without evidence. Distinguish reported completion from independently confirmed completion.
+
+3. **No invented state.** Never invent measurements, decisions, approvals, files, test results, or project status. When information is unavailable, label it UNKNOWN or UNVERIFIED.
+
+4. **Preserve accepted work.** Do not modify accepted contracts, results, decisions, or completed deliverables as incidental cleanup. Assess impact and obtain the required authorization before changing them.
+
+5. **No implied authorization.** Permission to investigate, design, or review does not authorize implementation, publication, deployment, or a subsequent gate. Authorization applies only to the exact action approved.
+
+6. **Blocked work stops cleanly.** When evidence, access, owner input, or authorization is missing, record the blocker and the exact requirement to resume. Do not bypass a gate by changing scope.
+
+7. **Reconcile before handover.** Before ending a work session, report completed work, verification evidence, outstanding work, blockers, changed documents, repository synchronization status, and the next authorized action.
+
+8. **Preserve uncertainty.** An unresolved question remains unresolved until evidence or an explicit owner-approved decision settles it. Repetition, assumption, or assistant consensus does not constitute resolution.
+
+9. **Report changes accurately.** Identify what was changed, where it was changed, what was deliberately left untouched, and what remains unverified.
+
+10. **Protect project boundaries.** Never import decisions, code, assumptions, or architectural conventions from another project without the required assessment and approval.
