@@ -39,6 +39,8 @@ on memory.
 
 | 14 | 2026-11-15 | Guardrail DRAFT v0.3 (reviewer: Gemini, second review per ChatGPT's disposition) | Approved | Verified each reconciled item: Class D internal subsystems (C-A1), exemption boundaries (C-A3), claims-ladder evidence distinction capping vendor claims below Tested (C-A2), tracker-logged waivers (G-obs), template decision fields (C-minor), relevance-based reassessment triggers (C-A4). Verdict: fully ready for adoption via an owner decision record in the charter; no further revisions required. With this verdict the review chain set by the reviewers themselves is complete (Muse #11 on the proposal; Gemini #12 and ChatGPT #13 on v0.2; Gemini #14 on v0.3) — adoption awaits the owner's decision record | FEATURE_RESEARCH_GUARDRAIL_DRAFT_v0.3_FOR_PEER_REVIEW.md; this log |
 
+| 15 | 2026-11-15 | Master Guardrails write-up (MASTER_GUARDRAILS_WRITEUP_2026-11-15.md) (reviewer: DeepSeek) | Approved with amendments | B1 §8 stale-state caveat added; B2 peer review log added to the write-up's §1 artifact list with its repo home; B3 review numbering explained in §11; B4 (optional) inline test boundaries added to §4's 53%/100% figures; B5 scope classes A–D defined in §3; B6 §1 'one responsibility' phrasing qualified. B7 ('got boring') left unchanged — it is verbatim from the master file §2.4. Finding C (fidelity unverifiable from the reviewer's materials) resolved by the author diffing the write-up against the full master text at 8cd53bc: all counts and figures match. Amendments applied to the write-up the same day; a review note in the write-up records the disposition | MASTER_GUARDRAILS_WRITEUP_2026-11-15.md (review note); this log |
+
 ## Rules for future reviews
 
 - Every new verdict gets a row here in the same turn it is acted on,
