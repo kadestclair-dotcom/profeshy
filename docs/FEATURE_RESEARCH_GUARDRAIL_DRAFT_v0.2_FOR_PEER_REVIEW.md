@@ -199,3 +199,21 @@ not restate or replace them:
 Where this guardrail and the master file appear to conflict, the
 master file and the charter's decision records govern, per the
 authority hierarchy.
+
+---
+
+## Review record addendum (2026-11-15)
+
+- Gemini: **APPROVED** (peer review log #12), no revisions
+  required; observations on waiver tracking and standalone status.
+- ChatGPT (review 1 of 2): **APPROVED WITH AMENDMENTS** (log #13) —
+  four required amendments (internal-subsystem scope; claims
+  ladder applied to evidence for external products; exemption
+  wording; relevance-based reassessment triggers) plus a
+  non-blocking template suggestion. Disposition: reconcile into
+  v0.3 and submit that version to Gemini; keep v0.2 intact.
+- The header stamp's note about a duplicated relay is resolved:
+  the duplicate was a relay error; both genuine reviews are now
+  on record (#12, #13).
+- v0.2 remains the reviewed version. It is superseded as a draft
+  by v0.3 for adoption purposes. Nothing is adopted.
