@@ -293,7 +293,7 @@ This document was peer-reviewed, amended, and adopted as follows:
   this document as a governance and handover specification — it
   does not certify the underlying measurements, repo state, Notion
   state, or technical decisions, which keep their own records.
-- **Final review, approval 2 of 2 (second reviewer): APPROVED.**
+- **Final review, approval 2 of 2 (Gemini): APPROVED.**
   Checklist verified against §2/§4 (evidence boundaries, claims
   ladder), §5 (secret custody), §7/§9 (synchronization, authority
   hierarchy), §1/§8 (scope and gate discipline, G2 prerequisites
