@@ -1,0 +1,62 @@
+Profeshy - License
+=======================
+Copyright (c) 2026 Kade. All rights reserved.
+
+Profeshy is SOURCE-AVAILABLE, not open source. This repository is
+published so that anyone can see exactly how the project is being
+built and check its claims against the recorded evidence. Publishing
+it does not give you any right to reuse it beyond what is written
+here. This license covers everything in this repository: the
+documentation, the spike designs and results, and the app's source
+code when it is added.
+
+YOU MAY
+  - Read the documentation and source code.
+  - View and fork this repository on GitHub, as GitHub's Terms of
+    Service allow for public repositories, and open issues and pull
+    requests.
+  - Download, install and use the app, when releases exist, for your
+    own personal, non-commercial use, including beta versions,
+    knowing that beta software can have bugs and can change between
+    versions.
+  - Build the app from source yourself for your own personal use.
+  - Tell other people about the project and point them to this
+    repository.
+
+YOU MAY NOT, without Kade's written permission
+  - Redistribute, re-upload, mirror or share copies of the app, its
+    source code, or this documentation anywhere else.
+  - Sell, rent or charge for the app, or bundle it with anything
+    that is sold.
+  - Publish modified versions, rebrand the app, or reuse its code
+    or documentation in another project.
+  - Remove or change this notice or any copyright notice in the
+    project.
+
+CONTRIBUTIONS
+  If you send a pull request or patch, you agree that Kade may use,
+  change and publish it as part of Profeshy under these terms.
+
+NO WARRANTY
+  The project is provided "as is", without warranty of any kind.
+  Prices, profit figures and forecasts are estimates. Kade is not
+  liable for any loss, including lost in-game gold, items or time,
+  or any action taken on your account, arising from use of the app
+  or reliance on its figures.
+
+THIRD PARTIES
+  - The app uses Blizzard's Developer API with the project owner's
+    API client. Use of that API is also subject to Blizzard's
+    Developer API Terms of Use.
+  - Auction, item and game data comes from Blizzard Entertainment's
+    API. Profeshy is a fan-made tool, not affiliated with or
+    endorsed by Blizzard. World of Warcraft and Blizzard
+    Entertainment are trademarks or registered trademarks of
+    Blizzard Entertainment, Inc., in the U.S. and/or other countries.
+  - Some item details come from ForeverDB (https://foreverdb.net),
+    credited in the app and in this repository, and subject to
+    ForeverDB's own terms.
+
+ENDING
+  Your permission to use the project ends automatically if you
+  break these terms.
