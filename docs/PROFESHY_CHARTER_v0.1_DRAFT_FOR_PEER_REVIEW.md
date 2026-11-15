@@ -382,6 +382,36 @@ Adoption recorded on the owner's instruction, 2026-11-15.
 First scheduled application: pilot the template on Spike S5
 (profit formula validation) at G2, per review #11's suggestion.
 
+### Decision #004 — Three-Way Review of Governance Changes adopted (2026-11-15)
+
+The owner adopts the **Three-Way Review of Governance Changes**
+rule, seated as §11 of the Master Guardrails and Rules (standalone
+text: `docs/THREE_WAY_REVIEW_RULE_ADOPTED.md`). Scope, confirmed
+by the owner: **guardrails only** — creation, amendment, removal,
+or material reinterpretation of rules in the Master Guardrails or
+an adopted standalone guardrail. It is not permission to change
+project decisions, technical contracts, or measured findings,
+which keep their existing processes.
+
+Review chain: peer reviews #16–#25. Round 3 on Draft v0.4
+(commit 5679024): ChatGPT APPROVED WITH AMENDMENTS (#23), Gemini
+APPROVED (#24), DeepSeek APPROVED WITH AMENDMENTS (#25). Outcome
+reached: **three-way review completed (§6 outcome 1 of the rule).
+Three-way approval (outcome 2) is NOT claimed.** Under the
+owner's standing instruction of 2026-11-15 (round-3 verdicts of
+APPROVED or APPROVED WITH AMENDMENTS are final; proceed with the
+amendments), every amendment named in #23 and #25 was
+incorporated into the adopted text without a further review
+round, and the adoption is recorded in the outcome-3a category
+per the rule's §10 stage 3, with composition stated: 1 APPROVED,
+2 APPROVED WITH AMENDMENTS, 0 REJECTED, 0 non-participating. No
+reviewer dissented and no condition was left unincorporated. The
+rule's review-window standing minimum is set by the owner at 3
+calendar days (§6 of the rule). Bootstrap stage 1 is this record;
+the rule governs changes to itself from this adoption forward.
+
+Adoption recorded on the owner's instruction, 2026-11-15.
+
 ### Spike S8 — review record (2026-11-14)
 
 Peer review verdict on the S8 competitor audit: **Approved as-is.** The

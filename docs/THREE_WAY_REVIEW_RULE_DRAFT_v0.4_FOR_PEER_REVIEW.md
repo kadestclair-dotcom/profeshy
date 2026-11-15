@@ -1,7 +1,6 @@
 # Proposed Rule — Three-Way Review of Governance Changes (DRAFT v0.4)
 
-**Status: PROPOSED — NOT ADOPTED.** Until adoption, the existing
-guardrails remain authoritative and this draft changes nothing.
+**Status: SUPERSEDED — ADOPTED 2026-11-15 as Decision Record #004** (v0.4 plus the round-3 amendments; adopted text: `THREE_WAY_REVIEW_RULE_ADOPTED.md`, seated as Master Guardrails §11). The draft text below is preserved as reviewed.
 **Version history:** v0.1 (2026-11-15, repo commit 927ae7b) —
 reviewed by Gemini (peer review #17: Approved) and ChatGPT
 (peer review #18: Approved with amendments). v0.2 (commit
