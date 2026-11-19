@@ -1,7 +1,8 @@
 # Profeshy — Project Charter v0.1
 
 **Status: ADOPTED 2026-11-14 (Gate G0 closed; Decisions #001 and #002
-recorded at the end of this document). Originally issued the same day
+recorded at the end of this document; Gate G1 closed 2026-11-18,
+Decision #005). Originally issued the same day
 as a DRAFT FOR PEER REVIEW — that draft authorized no code, no
 accounts, and no spending; spike harnesses since then were approved
 individually. Filename retains its draft-era name so existing links
@@ -411,6 +412,57 @@ calendar days (§6 of the rule). Bootstrap stage 1 is this record;
 the rule governs changes to itself from this adoption forward.
 
 Adoption recorded on the owner's instruction, 2026-11-15.
+
+### Decision #005 — Gate G1 closed (2026-11-18)
+
+**Decision: Gate G1 — Data feasibility is CLOSED,** on the owner's
+instruction of 2026-11-18, at claim level **Tested**.
+
+Basis: every item of `docs/G1_CLOSEOUT_CHECKLIST.md`.
+
+- **Evidence items:**
+  - S1b PASS
+  - S2 PASS, both parts (review #29)
+  - S3 PASS (review #26)
+  - S4 PASS, with F1 answered on its sample (review #27)
+- **The exit criterion (§9),** shown live on 2026-11-18 in run
+  `20261118-210413`. The owner's PC acted as a stand-in backend
+  holding his Blizzard client (Route B, Decision #001). It fetched
+  house 113 and served one static page to his phone over home Wi-Fi.
+  The phone held no key.
+  - **Live price:** Light Leather (2318), 65c per unit, commodities
+    route.
+  - **Validated recipe:** Handstitched Leather Boots (recipe 1353),
+    re-checked live with S4's own checks, inside S4's tested window.
+  - **Provenance:** both shown on the phone with their source,
+    namespace, fetch times and Blizzard's `Last-Modified`.
+  - Write-up: `docs/G1_EXIT_DEMO_RESULTS_2026-11-18.md`.
+- **Close-out review #30** (Gemini): APPROVED WITH DIRECTIONS, all
+  applied. The reviewer judged the stand-in backend "a fair and
+  proportional reading" of the criterion at the feasibility stage, and
+  stated that the result supports recording G1 CLOSED under Tested and
+  the write-up's §5 limits.
+
+Limits carried forward, not resolved by this decision:
+
+- **Scope of the demonstration:** one house, ruleset and region (US,
+  ruleset 1, house 113), and one item and recipe on one evening.
+  The PC was a stand-in, not a deployed backend; there was no app and
+  no mobile network. These belong to S6, S7 and D4.
+- **Validated recipe:** S4 kept counts only, so "validated" means
+  S4's checks re-run live, not a field-by-field match.
+- **Open compliance items:** C1 (Blizzard §2.18 30-day data TTL against
+  keeping price history) and A1 (the client registration names
+  Profeshy), both in the terms register. C1 must be resolved before
+  Contract v1.
+- **ForeverDB:** whether its data may be cached or stored, and how
+  its watermark must be handled (register §2, risk R6).
+- **Still owed by the owner:** Q6, monetization intent.
+- **S8 hands-on device pass:** due before G3.
+
+Next gate: **G2 — Contract v1 frozen**. That means S5, S6 and S7, then D2
+and D4, then Contract v1 with its schemas, freshness rules and profit
+formula.
 
 ### Spike S8 — review record (2026-11-14)
 

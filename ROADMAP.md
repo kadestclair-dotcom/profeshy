@@ -7,8 +7,8 @@ promised. Anything below that is marked as planned can change if the
 evidence says it should, and the change will be recorded here and in
 the charter.
 
-Status as of 2026-11-18: Phase 0 complete. Phase 1: every test has
-been run and peer reviewed; two steps remain before Gate G1 can close.
+Status as of 2026-11-18: Phases 0 and 1 complete. Gate G1 closed on
+2026-11-18. Phase 2, the contract and the architecture, is next.
 
 ## Phase 0 — Charter and decisions (done)
 
@@ -19,7 +19,7 @@ been run and peer reviewed; two steps remain before Gate G1 can close.
 - Decision 002: the stage order below stands as written
 - Public repository opened, with the full paper trail in docs/
 
-## Phase 1 — Data feasibility (Gate G1, in progress)
+## Phase 1 — Data feasibility (Gate G1, done)
 
 Throwaway tests that prove the data the app needs actually exists and
 behaves. Full designs and results are in docs/.
@@ -53,12 +53,15 @@ behaves. Full designs and results are in docs/.
   forecasting. A hands-on pass over the rival apps is still owed
   before Gate G3
 
-Gate G1 closes when a live price and a checked recipe can be shown
-on a phone, with their sources labelled, through this data route.
-What remains: that demonstration (or a review ruling that the
-evidence already shows it), then the owner's decision to close G1.
+- Gate G1 demonstration: done 2026-11-18. The project owner's PC
+  fetched a live price (Light Leather, 65 copper) and a checked
+  recipe (Handstitched Leather Boots) through his own Blizzard API
+  access, and showed both on his phone with their sources labelled.
+  The key never left the PC. An independent review approved it, and
+  the owner closed Gate G1. The PC stood in for a real backend;
+  building that is Phase 2 work
 
-## Phase 2 — Contract and architecture (Gate G2)
+## Phase 2 — Contract and architecture (Gate G2, next)
 
 - The remaining tests: S5 (the profit formula, checked by hand
   against worked examples), S6 (whether Android battery limits let

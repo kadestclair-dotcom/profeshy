@@ -207,42 +207,49 @@ with no verified-as-of date or owner.
   justification, updated evidence, and owner approval wherever it
   changes an accepted decision.
 
-## 8. Current state (2026-11-18, evening)
+## 8. Current state (2026-11-18, G1 closed)
 
-- G0 CLOSED. G1 in progress: every evidence and review item is
-  done; what remains is the exit demonstration (or a close-out
-  review ruling that the evidence satisfies it) and the owner's G1
-  decision (`G1_CLOSEOUT_CHECKLIST.md`).
+- G0 CLOSED. **G1 CLOSED 2026-11-18** (charter Decision #005, at
+  Tested). The exit demonstration showed a live price and a
+  validated recipe on the owner's phone through Route B, with
+  provenance (`G1_EXIT_DEMO_RESULTS_2026-11-18.md`, close-out
+  review #30). Its limits are carried in Decision #005: one house,
+  ruleset and region; a PC stand-in, not a deployed backend. The
+  Notion and tracker snapshot refresh to this state follows this
+  commit (§7).
   - S1b PASS (closed).
-  - S2 PASS, both parts, at Tested. Part B was not approved in
-    review #28 (two design measurements missing); the 2026-11-18
-    re-run was approved in review #29.
+  - S2 PASS, both parts, at Tested (review #29, after #28).
   - S3 PASS (review #26): house 113 publishes hourly, at
     :17:38–:19:32 past the hour in the hours observed; no
     conditional requests, so every fetch is a full download.
     Retention design R1 stays conditional on C1.
   - S4 PASS; F1 answered positively on the 25-item sample at
     Tested (review #27); F2 Blacksmithing and Mining differences
-    open for Stage 3.
+    open for Stage 3. Crafting materials are commodities, served
+    from the separate `…/auctions/{house}/commodities` route.
   - S8: listing-based assessment COMPLETE; hands-on device
     verification OUTSTANDING (due before G3); overall acceptance
     PENDING.
+- **Now in G2 — Contract v1 frozen.** Ahead: S5 (profit formula
+  validation), S6 (Android background reality), S7 (stack
+  prototype) → D2; D4 (backend posture and cost ceiling); Contract
+  v1 freeze.
 - ForeverDB access approved 2026-11-15 (developer ID dev-0258).
   Open before Contract v1 uses its data: whether it may be cached
   or stored, and how its watermark must be handled (register §2,
   risk R6).
 - Repo live and peer-review approved, incl. `docs/` paper trail,
-  `ROADMAP.md`, and a source-available all-rights-reserved LICENSE.
-  Peer reviews recorded through #29.
+  `ROADMAP.md`, a source-available all-rights-reserved LICENSE, and
+  `design/` assets for the approved Pixel Ledger design direction.
+  Peer reviews recorded through #30.
 - Compliance register on file (TERMS_RISK_COMPLIANCE_REGISTER.md):
   open items C1 (Blizzard §2.18 30-day data TTL vs long-term price
-  history — resolve before G2) and A1 (confirm the Blizzard client
-  registration names Profeshy).
+  history — resolve before Contract v1) and A1 (confirm the Blizzard
+  client registration names Profeshy).
 - Still owed by the owner: Q6 monetization intent (unanswered —
   it changes AHledger/ForeverDB tier maths; do not assume an answer).
-- Ahead: S5 (profit formula validation), S6 (Android background
-  reality), S7 (stack prototype) → D2; D4 (backend posture and cost
-  ceiling) at G2; Contract v1 freeze at G2.
+  Blizzard API terms §2.2 (no premiums) and §2.8 (no monetizing or
+  transferring the Data) bound any answer.
 
 ## 9. If you are a new assistant starting cold
 

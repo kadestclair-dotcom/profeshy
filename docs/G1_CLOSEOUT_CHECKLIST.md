@@ -4,7 +4,10 @@
 **Exit criterion:** a live price and a validated recipe can be produced
 on a phone, with provenance, through the chosen access model
 (Route B, Decision #001) — or the project pivots per charter §10.
-**Status:** IN PROGRESS. Items below are the complete remaining set;
+**Status (2026-11-18): G1 CLOSED** (charter Decision #005), at
+Tested. Every item below is done except the snapshot refresh, which
+follows the commit that records the closure (master §7).
+**Earlier status:** IN PROGRESS. Items below are the complete remaining set;
 when every box is checked, G1 can be put to the owner for closure.
 **Update 2026-11-18:** every evidence and review item is done; the
 exit demonstration and the owner's decision remain.
@@ -35,11 +38,17 @@ exit demonstration and the owner's decision remain.
   owner's action; the key never enters chat). **Done:** key approved
   2026-11-15; `S4_F1_F2_ADDENDUM_2026-11-18.md` (F1 25/25 on the
   sample, Tested; F2 two differences open)
-- [ ] G1 exit demonstration: one live price and one validated recipe
+- [x] G1 exit demonstration: one live price and one validated recipe
   shown on the phone with provenance labels, per the exit criterion
   (the S2 Part B run demonstrated the price half against a captured
   snapshot; the recipe half is evidenced by S4 — the close-out
-  review confirms whether this satisfies the criterion as written)
+  review confirms whether this satisfies the criterion as written).
+  **Done 2026-11-18:** the owner chose a fresh live demonstration.
+  Run `20261118-210413` showed Light Leather at 65c (commodities
+  route) and the validated recipe Handstitched Leather Boots (1353)
+  on his phone, through Route B, with provenance.
+  `G1_EXIT_DEMO_RESULTS_2026-11-18.md`; close-out review #30
+  (Gemini) approved it with directions, all applied
 
 ## Review and records
 
@@ -48,13 +57,15 @@ exit demonstration and the owner's decision remain.
   amendments, applied)
 - [x] Peer review of F1/F2 results — same treatment (#27, approved
   with amendments, applied)
-- [ ] Owner decision: G1 CLOSED recorded (charter decision record
-  and tracker), or the specific remaining item named
+- [x] Owner decision: G1 CLOSED recorded (charter decision record
+  and tracker), or the specific remaining item named. **Done:**
+  charter Decision #005, 2026-11-18; the tracker is updated with the
+  snapshot refresh below
 - [ ] Snapshot refresh per the owner's rule (2026-11-14): Notion
   subpage copies and the Excel tracker updated to the finalized
   G1 state, including this checklist marked complete
-- [ ] Master guardrails file §8 (current state) updated to the
-  post-G1 position
+- [x] Master guardrails file §8 (current state) updated to the
+  post-G1 position (2026-11-18)
 
 ## Explicitly NOT required for G1
 
