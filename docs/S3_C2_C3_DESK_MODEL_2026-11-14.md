@@ -44,3 +44,7 @@ day one, at the price of starting empty.
 from the earliest moment the Contract allows; treat AHledger history
 as a display-only supplement at most, never as the system of record.
 This aligns with Decision #001 (Route C is a fallback, not a source).
+
+---
+
+**2026-11-18 (S3 results, review #26):** C2's 4.7 GB/day transfer estimate is superseded by the measured 4.5 GB/day (`S3_RESULTS_2026-11-18.md` §3). C3's statement that self-collection costs roughly two orders of magnitude less than AHledger has no measured hosting price behind it, and is unverified until D4 prices hosting. The text above is otherwise unchanged.
