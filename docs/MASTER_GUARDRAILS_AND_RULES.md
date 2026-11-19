@@ -207,18 +207,33 @@ with no verified-as-of date or owner.
   justification, updated evidence, and owner approval wherever it
   changes an accepted decision.
 
-## 8. Current state (2026-11-14, evening)
+## 8. Current state (2026-11-18, evening)
 
-- G0 CLOSED. G1 in progress: S1b PASS (closed). S2 PASS (closed,
-  desktop + Android). S4: source strategy ACCEPTED (results
-  peer-review approved); F1 item-coverage test OUTSTANDING —
-  parked 2026-11-14, awaiting ForeverDB's response; do not chase.
-  S3 RUNNING (cadence probe on the owner's PC since 20:04 PST;
-  results report due after ~24 h of log). S8: listing-based
-  assessment COMPLETE; hands-on device verification OUTSTANDING
-  (due before G3); overall acceptance PENDING.
+- G0 CLOSED. G1 in progress: every evidence and review item is
+  done; what remains is the exit demonstration (or a close-out
+  review ruling that the evidence satisfies it) and the owner's G1
+  decision (`G1_CLOSEOUT_CHECKLIST.md`).
+  - S1b PASS (closed).
+  - S2 PASS, both parts, at Tested. Part B was not approved in
+    review #28 (two design measurements missing); the 2026-11-18
+    re-run was approved in review #29.
+  - S3 PASS (review #26): house 113 publishes hourly, at
+    :17:38–:19:32 past the hour in the hours observed; no
+    conditional requests, so every fetch is a full download.
+    Retention design R1 stays conditional on C1.
+  - S4 PASS; F1 answered positively on the 25-item sample at
+    Tested (review #27); F2 Blacksmithing and Mining differences
+    open for Stage 3.
+  - S8: listing-based assessment COMPLETE; hands-on device
+    verification OUTSTANDING (due before G3); overall acceptance
+    PENDING.
+- ForeverDB access approved 2026-11-15 (developer ID dev-0258).
+  Open before Contract v1 uses its data: whether it may be cached
+  or stored, and how its watermark must be handled (register §2,
+  risk R6).
 - Repo live and peer-review approved, incl. `docs/` paper trail,
   `ROADMAP.md`, and a source-available all-rights-reserved LICENSE.
+  Peer reviews recorded through #29.
 - Compliance register on file (TERMS_RISK_COMPLIANCE_REGISTER.md):
   open items C1 (Blizzard §2.18 30-day data TTL vs long-term price
   history — resolve before G2) and A1 (confirm the Blizzard client

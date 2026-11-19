@@ -7,7 +7,8 @@ promised. Anything below that is marked as planned can change if the
 evidence says it should, and the change will be recorded here and in
 the charter.
 
-Status as of 2026-11-14: Phase 0 complete. Phase 1 nearly complete.
+Status as of 2026-11-18: Phase 0 complete. Phase 1: every test has
+been run and peer reviewed; two steps remain before Gate G1 can close.
 
 ## Phase 0 — Charter and decisions (done)
 
@@ -27,16 +28,26 @@ behaves. Full designs and results are in docs/.
   is about 13 MB and 131,000 auctions; the data is identical across
   rulesets, so the app will read one and never add them together
 - S2, shrinking that data for a phone: passed, on desktop and on a
-  real Android phone. A full house compresses to about 67 KB and
-  answers lookups in a few milliseconds
+  real Android phone. A full house compresses to about 64–67 KB.
+  On a 2019 phone every lookup, search and full scan answered in
+  under 40 ms, and a full refresh (download, rebuild, swap) took
+  under a second. The first phone run missed two of the planned
+  measurements; review sent it back, and a re-run on 2026-11-18
+  added them and passed
 - S3, how often prices change and how history will be collected:
-  running. A probe is watching one auction house every 15 minutes
-  for 24 hours. History will be collected by the project itself,
-  because renting it would not allow keeping it
+  passed. The auction house measured publishes a new snapshot once
+  an hour, at a fixed minute. The API cannot say whether anything
+  changed, so every check is a full 10–15 MB download. History will
+  be collected by the project itself, once an hour per house,
+  because renting it would not allow keeping it. How long it may be
+  kept depends on Blizzard's 30-day data rule, which must be
+  settled before Gate G2
 - S4, recipe and profession data: passed. 2,494 recipes found, and
-  every material they need can be looked up. One check remains:
-  whether ForeverDB can name the auction items Blizzard's API cannot
-  (about half of them). Waiting on a ForeverDB API key
+  every material they need can be looked up. ForeverDB granted API
+  access, and it named all 25 sampled auction items that Blizzard's
+  API cannot (about half of all items); the rest are not yet
+  checked. Whether ForeverDB data may be stored is still an open
+  question
 - S8, competitor audit: done from public listings. No rival offers
   Android Forever prices with alerts, live-priced leveling, or
   forecasting. A hands-on pass over the rival apps is still owed
@@ -44,6 +55,8 @@ behaves. Full designs and results are in docs/.
 
 Gate G1 closes when a live price and a checked recipe can be shown
 on a phone, with their sources labelled, through this data route.
+What remains: that demonstration (or a review ruling that the
+evidence already shows it), then the owner's decision to close G1.
 
 ## Phase 2 — Contract and architecture (Gate G2)
 
