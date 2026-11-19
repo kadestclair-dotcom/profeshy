@@ -83,6 +83,12 @@ Status: application not yet submitted by the owner (repo URL ready).
 Per the owner's instruction 2026-11-14, the ForeverDB thread is
 parked until ForeverDB responds to the application — no chasing.
 
+**2026-11-15 — access approved** (this supersedes the status above, which is kept as written). Request FDB-A258, developer ID dev-0258. Every genuine API answer carries `meta.client = "dev-0258"`. ForeverDB's approval states that it logs per key: endpoints, items, requesting site, program kind and country (not IP). That is ForeverDB's statement, not technically verified. The credit link to https://foreverdb.net remains mandatory on the free tier. Source: ForeverDB approval record (Notion).
+
+**Open — caching/storage.** The terms on record do not say whether ForeverDB data may be cached or stored, or for how long. To resolve before Contract v1 uses ForeverDB data.
+
+**2026-11-18 — watermark observation.** The `description` fields returned by `/professions` carry an invisible zero-width character sequence. Other fields are untested; the 25 item names in the F1 sample did not carry it. It may be a per-key fingerprint (Hypothesis). Removing it may conflict with the terms. See `S4_F1_F2_ADDENDUM_2026-11-18.md` §6.
+
 ## 3. AHledger terms — recorded 2026-11-14 (fallback only)
 
 Source: D1 decision brief and S3 desk model, from
@@ -113,8 +119,9 @@ name is clear to keep using in development.
 | R1 | Blizzard changes or withdraws the undocumented Forever API, or access under §1/§2.11 | Loss of live prices — the product's core | AHledger fallback (Decision #001); charter §10 kill criterion: pivot to guides + manual tracking or stop — never fake "live" |
 | R2 | §2.18 TTL reading forbids long-term price history (C1) | Stage 2 history and Stage 5 forecasting shrink or redesign | Resolve C1 before G2; S3 rollup design can be re-cut to a 30-day window if required |
 | R3 | Monetization design collides with §2.2/§2.8 | Q6 answered in a way the terms prohibit | Q6 stays open until checked against §1 of this register at G2 |
-| R4 | ForeverDB declines or delays the key | F1 unanswered; ~53% of AH items stay unnamed | Charter §7.5 degradation: icon + ID, absence shown as absence; Stage 3 not cut (S4 verdict) |
+| R4 | ForeverDB declines or delays the key — **resolved 2026-11-15: key approved** (FDB-A258) | F1 unanswered; ~53% of AH items stay unnamed (as recorded 2026-11-14; F1 since answered on a 25-item sample, see R6) | Charter §7.5 degradation: icon + ID, absence shown as absence; Stage 3 not cut (S4 verdict) |
 | R5 | Any provider changes terms (precedent: AHledger, 2026-12-10) | Silent non-compliance | This register is re-read at every gate; dated triggers below |
+| R6 | ForeverDB coverage or terms fall short (added 2026-11-18) | Coverage beyond the 25-item F1 sample is untested (240 of the 265 known gaps); caching and storage terms unknown; watermark handling rules unknown | F1 Tested 25/25 (`S4_F1_F2_ADDENDUM_2026-11-18.md`); charter §7.5 degradation still applies to any unnamed item; resolve the caching and watermark questions before Contract v1 uses ForeverDB data (§2, §6) |
 
 ## 6. Dated triggers and future obligations
 
@@ -123,6 +130,7 @@ name is clear to keep using in development.
 - **G2:** resolve C1 (30-day TTL); draft the privacy policy
   (D-Priv); check the Q6 monetization answer against §2.2/§2.8;
   complete A1 (client registration names Profeshy).
+  Also (added 2026-11-18): settle whether ForeverDB data may be cached or stored and how its watermark must be handled (§2); if the app calls ForeverDB from users' phones, the privacy policy must disclose ForeverDB's per-key logging (S4 addendum §8), or a backend makes the calls instead (D4).
 - **G3:** Google Play obligations — developer account, data-safety
   declaration, target-API requirements in force at that date;
   optional formal trademark clearance for "Profeshy".
