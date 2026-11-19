@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reference only: the 28 master palette colours as Android colour resources. Not wired into any app. -->
+<resources>
+    <color name="ink_950">#14121A</color>
+    <color name="ink_800">#2E2B3C</color>
+    <color name="slate_600">#58546C</color>
+    <color name="slate_400">#8E8AA2</color>
+    <color name="paper_100">#F9F6EE</color>
+    <color name="paper_200">#ECE6D6</color>
+    <color name="paper_300">#D0C7B2</color>
+    <color name="paper_400">#A89E88</color>
+    <color name="gold_100">#FFF3B0</color>
+    <color name="gold_300">#F6CA4A</color>
+    <color name="gold_500">#D49A22</color>
+    <color name="gold_700">#986216</color>
+    <color name="blue_200">#94C2EE</color>
+    <color name="blue_400">#4E88C6</color>
+    <color name="blue_600">#2C5890</color>
+    <color name="blue_800">#1A345C</color>
+    <color name="green_300">#7ED694</color>
+    <color name="green_500">#3AA662</color>
+    <color name="green_700">#226E42</color>
+    <color name="red_300">#F2807A</color>
+    <color name="red_500">#CC4444</color>
+    <color name="red_700">#8A262C</color>
+    <color name="wood_300">#C48E5E</color>
+    <color name="wood_500">#946038</color>
+    <color name="wood_700">#603A22</color>
+    <color name="purple_300">#C09AEC</color>
+    <color name="purple_500">#865CBA</color>
+    <color name="purple_700">#52327E</color>
+</resources>
